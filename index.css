@@ -1,3 +1,6 @@
 body {
-    background-color: cyan;
+    background-color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    color: black;
 }
