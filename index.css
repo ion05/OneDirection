@@ -1,3 +1,65 @@
-body {
-    background-color: cyan;
+body,
+html {
+  background-color: white;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  color: black;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
 }
+
+.hero-image {
+  margin-right: 0;
+  height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  background-image: url(assets/images/hero-image-1d.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-clip: inherit; */
+  background-size: cover;
+  /* background-size: 100vw; */
+  /* background-size: 100vh; */
+}
+
+/* navbar */
+.navbar {
+  background-color: black;
+  width: 100vw;
+  align-items: center;
+  height: 3rem;
+  text-emphasis: none;
+  text-decoration: none;
+  z-index:2;
+}
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 2em 2em 2.5em 2.5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a:hover{
+  color: white;
+  text-decoration: none;
+  animation-name: fonta;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fonta {
+  0% {font-family: "Langar",cursive;}
+  10% { font-family: "Abril Fatface",cursive;}
+  20% {font-family: "Dancing Script", cursive;}
+  30%{font-family: "Bebas Neue", cursive;}
+  40% {font-family: "Pacifico",cursive;}
+  50% {font-family: "Frijole",cursive;}
+  70% {font-family: "Lobster", cursive;}
+  80% {font-family: "AudioWide", cursive;}
+  90%{font-family: "Oleo Script", cursive;}
+  100%{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  
+}
+
+
