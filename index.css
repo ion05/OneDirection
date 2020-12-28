@@ -52,5 +52,27 @@ html {
   color: white;
   text-align: center;
   padding: 2em 2.5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a:hover{
+  color: white;
+  text-decoration: none;
+  animation-name: fonta;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fonta {
+  0% {font-family: "Langar",cursive;}
+  10% { font-family: "Abril Fatface",cursive;}
+  20% {font-family: "Dancing Script", cursive;}
+  30%{font-family: "Bebas Neue", cursive;}
+  40% {font-family: "Pacifico",cursive;}
+  50% {font-family: "Frijole",cursive;}
+  70% {font-family: "Lobster", cursive;}
+  80% {font-family: "AudioWide", cursive;}
+  90%{font-family: "Oleo Script", cursive;}
+  100%{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
   
 }
