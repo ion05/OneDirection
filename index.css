@@ -88,4 +88,37 @@ html {
   
 }
 
+.band {
+  margin-top: 1rem;
+}
+.head {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+.Liam-Payne {
+  margin-top: 2rem;
+}
+.liam-descrip {
+  margin-top: 5rem;
+  text-align: center;
+}
 
+.liam-descrip h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 5em;
+  margin-bottom: 2rem;
+}
+
+.liam-descrip q {
+  font-family: "Source Code Pro", monospace;
+  margin-top: 2rem;
+  font-size: 1.5em;
+  word-wrap:normal;
+  margin-bottom: 2rem;
+}
+
+.icons {
+  font-size: 2em;
+  color:black;
+}
