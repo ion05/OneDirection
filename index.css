@@ -1,5 +1,3 @@
-
-
 body,html {
     background-color: white;
     font-family: "Teko", sans-serif;
@@ -7,6 +5,8 @@ body,html {
     color: black;
     height: 100%;
     margin:0;
+    max-width: 100vw;
+    overflow-x:hidden;
 }
 
 
@@ -99,18 +99,18 @@ html {
 .Liam-Payne {
   margin-top: 2rem;
 }
-.liam-descrip {
+.mem-descrip {
   margin-top: 5rem;
   text-align: center;
 }
 
-.liam-descrip h2 {
+.mem-descrip h2 {
   font-family: 'Staatliches', cursive;
   font-size: 5em;
   margin-bottom: 2rem;
 }
 
-.liam-descrip q {
+.mem-descrip q {
   font-family: "Source Code Pro", monospace;
   margin-top: 2rem;
   font-size: 1.5em;
@@ -121,4 +121,8 @@ html {
 .icons {
   font-size: 2em;
   color:black;
+}
+
+#louis {
+  margin-left: 0;
 }
